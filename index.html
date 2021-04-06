@@ -22,6 +22,21 @@
                     <li>A group of friends &#x1F46D &#x1F46B &#x1F46C</li>
                 </ul>
             </div>
+            <h2>Is this true or false about burgers?</h2>
+            <p>"The Hamburger is believed to have been invented in 1900 by Louis Lassen in Hamburg, Germany."</p>
+            <button onclick="wrongAnswer()">True</button>
+            <button onclick="rightAnswer()">False</button>
+            <h3><a target="_blank" href="https://codaisseur.com/">Made with ❤ at Codaisseur</a></h3>
         </main>
+        <script>
+            function wrongAnswer() {
+                document.body.style.background="red"
+                alert("You missed it, try again!")
+            }
+            function rightAnswer() {
+                document.body.style.background="green"
+                alert("You got it! :D")
+            }
+        </script>        
     </body>
 </html>
